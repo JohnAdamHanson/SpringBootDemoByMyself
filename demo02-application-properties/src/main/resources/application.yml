@@ -1,0 +1,13 @@
+#application.properties中的配置
+#com.jqzhu.name=jqzhu
+#com.jqzhu.where=shanghai
+#com.jqzhu.when=2018-03-27
+#com.jqzhu.randomValue=${random.uuid}
+
+#application.yml中的配置
+com:
+  jqzhu:
+    name: jqzhu_yml
+    where: shanghai_yml
+    when: 2018-03-28_yml
+    random-value: ${random.uuid}
